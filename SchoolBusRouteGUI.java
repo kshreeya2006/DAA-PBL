@@ -70,7 +70,7 @@ class GraphPanel extends JPanel {
     Graph graph;
     int[] prev; // Predecessor array for path reconstruction
     Point[] points; // Coordinates for each node
-    int source; // Starting node (home)
+    int source; // Starting node 
 
     public GraphPanel(Graph graph, int[] prev, Point[] points, int source) {
         this.graph = graph;
